@@ -2,6 +2,13 @@
 
 Quick Notes about Mac OSX
 
+
+## Change login window picture
+
+```shell
+cp my_favorite_picture.jpg /Library/Caches/com.apple.desktop.admin.png
+```
+
 ## Disable the “Are you sure you want to open this file?” warning dialogue
 
 To disable this warning dialogue:
