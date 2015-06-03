@@ -40,3 +40,9 @@ To reset that list:
 ```shell
 sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'
 ```
+
+## Wi-Fi connection history
+
+```
+defaults read /Library/Preferences/SystemConfiguration/com.apple.airport.preferences
+```
